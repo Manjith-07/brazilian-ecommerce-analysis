@@ -11,7 +11,7 @@ This project performs an end-to-end analysis of a real-world Brazilian e-commerc
 | **MySQL Workbench (SQL)** | Data cleaning, multi-table joins (9 tables), and initial aggregation. |
 | **Python (Pandas)** | Advanced data cleaning, feature engineering, and RFM segmentation. |
 | **Tableau Public** | Interactive dashboard creation and visual storytelling. |
-| **Microsoft Excel** | Financial analysis and Year-over-Year (YoY) growth calculations. |
+| **Microsoft Excel Web** | Financial analysis and Year-over-Year (YoY) growth calculations. |
 
 ---
 
@@ -33,7 +33,7 @@ This project performs an end-to-end analysis of a real-world Brazilian e-commerc
 
 ## 🔗 Project Links & Deliverables
 * **Live Interactive Dashboard:** [View on Tableau Public](https://public.tableau.com/views/olist_brazilian_data_analysis/Dashboard1)
-* **Analysis Code (Python/SQL):** See the `olist_rfm_analysis.ipynb` and `sql/` folder.
+* **Analysis Code (Python/SQL):** See the `brazilian_ecommerce_analysis.ipynb` and `sql/` folder.
 * **Final Data Files:** See `olist_master_clean_python.csv` and `olist_rfm_segments.csv`.
 
 ---
@@ -44,11 +44,12 @@ This repository contains all code and cleaned data used for the analysis.
 
 ### Code
 * **sql/**
-    * `olist_master_join.sql`: All MySQL commands for data joining, feature engineering, and aggregation.
-* **olist_rfm_analysis.ipynb**: Python notebook containing data cleaning, type conversion, and the full RFM customer segmentation analysis.
+    * `olist_data_analysis.sql`: All MySQL commands for data joining, feature engineering, and aggregation.
+* **brazilian_ecommerce_analysis.ipynb**: Python notebook containing data cleaning, type conversion, and the full RFM customer segmentation analysis.
 
 ### Data & Deliverables
 * `olist_master_clean_python.csv`: The final, cleaned, and joined transaction data table used as the source for the dashboard.
 * `olist_rfm_segments.csv`: The summary table containing all customer RFM scores (used for the segmentation bar chart).
+* `olist_monthly_summary_pivot.xlsx`: [View the Excel file](https://1drv.ms/x/c/44ea9bc99e07e60b/EX5SxeEF04NKhGR352BQIe8BaUeR_oIkFzJ6hWJFmNf9Aw?e=q2VzKT) Enhanced Excel file containing pivot tables, highlighted summaries, and charts for monthly revenue and order trends.
 * `README.md`: Project documentation, methodology, and key business insights.
 
