@@ -51,3 +51,4 @@ This repository contains all code and cleaned data used for the analysis.
 * `olist_master_clean_python.csv`: The final, cleaned, and joined transaction data table used as the source for the dashboard.
 * `olist_rfm_segments.csv`: The summary table containing all customer RFM scores (used for the segmentation bar chart).
 * `README.md`: Project documentation, methodology, and key business insights.
+
