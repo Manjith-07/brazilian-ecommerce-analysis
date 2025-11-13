@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Large/Temporary Data Files (crucial to avoid uploading raw data)
+*olist_orders_dataset.csv
+*olist_products_dataset.csv
+*.csv # Optionally ignore ALL CSVs if you only want code, but we'll include the small clean ones.
+
+# Operating System Files
+.DS_Store
